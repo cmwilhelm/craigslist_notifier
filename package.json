@@ -1,0 +1,16 @@
+{
+  "name": "craigslist_notifier",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "request": "*",
+    "bluebird": "~1.1.1",
+    "jquery": ">=2.1",
+    "jsdom": "3.1.2",
+    "nodemailer": "*",
+    "twilio": "*"
+  }
+}
